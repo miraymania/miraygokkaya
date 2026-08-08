@@ -7,30 +7,28 @@ author_profile: true
 
 {% include base_path %}
 
+<h2 class="publication-section-title">Journal Articles</h2>
+
 <div class="publications">
 
-{% for post in site.publications reversed %}
+{% for post in site.publications %}
 
-<div class="publication-item">
+<div class="publication-item"> {{ post.citation }} </div>
 
-{% if post.citation %}
-  {{ post.citation }}
-{% endif %}
-
-{% if post.paperurl %}
-  <a href="{{ post.paperurl }}">[PDF]</a>
-{% endif %}
-
-{% if post.bibtexurl %}
-  <a href="{{ post.bibtexurl }}">[BibTeX]</a>
-{% endif %}
-
-{% if post.doi %}
-  <a href="https://doi.org/{{ post.doi }}">[DOI]</a>
-{% endif %}
+{% endfor %}
 
 </div>
 
+<h2 class="publication-section-title">Dissertation</h2>
+
+<div class="publications">
+
+{% for post in site.publications %}
+{% if post.category == "dissertation" %}
+<div class="publication-item">
+{{ post.citation }}
+</div>
+{% endif %}
 {% endfor %}
 
 </div>
