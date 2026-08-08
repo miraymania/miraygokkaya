@@ -2,7 +2,6 @@ Journal articles
 ---
 collection: publications
 category: journal article
-# permalink: /publication/2009-10-01-paper-title-number-1
 date: 2026
 venue: 'Linguistic Approaches to Bilingualism'
 paperurl: 'https://www.jbe-platform.com/content/journals/10.1075/lab.25030.bar'
