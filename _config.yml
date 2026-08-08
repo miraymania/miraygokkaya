@@ -23,7 +23,7 @@ repository               : "miraymania/miraymania.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Miray Gökkaya"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in SFB 1760 Silence, Noise and Signal in Language Project A01"
